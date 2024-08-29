@@ -1,0 +1,117 @@
+<mxfile host="app.diagrams.net" modified="2024-08-29T07:44:56.912Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" etag="mZgb_QThhc92R6slobfr" version="21.5.2" type="device">
+  <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
+    <mxGraphModel dx="1728" dy="915" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aM9ryv3xv72pqoxQDRHE-1" value="browser" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="70" y="250" width="100" height="680" as="geometry" />
+        </mxCell>
+        <mxCell id="aM9ryv3xv72pqoxQDRHE-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="aM9ryv3xv72pqoxQDRHE-1" vertex="1">
+          <mxGeometry x="45" y="70" width="10" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="aM9ryv3xv72pqoxQDRHE-5" value="server" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="635" y="240" width="100" height="690" as="geometry" />
+        </mxCell>
+        <mxCell id="aM9ryv3xv72pqoxQDRHE-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="aM9ryv3xv72pqoxQDRHE-5" vertex="1">
+          <mxGeometry x="45" y="80" width="10" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="aM9ryv3xv72pqoxQDRHE-7" value="&lt;pre style=&quot;box-sizing: inherit; font-family: &amp;quot;IBM Plex Mono&amp;quot;, monospace; font-size: 0.85rem; margin-top: 2rem; margin-bottom: 2rem; line-height: 1.42; border-radius: 0.5rem; overflow-wrap: normal; padding: 1rem; overflow: auto; position: relative; text-align: start;&quot;&gt;&lt;code style=&quot;box-sizing: inherit; font-family: Consolas, Monaco, &amp;quot;Andale Mono&amp;quot;, &amp;quot;Ubuntu Mono&amp;quot;, monospace; font-size: 1em; line-height: 1.5; background-image: none; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; border-radius: 3px; padding: 0.2em 0px; text-shadow: none; word-spacing: normal; word-break: normal; overflow-wrap: normal; tab-size: 4; hyphens: none;&quot; class=&quot;language-text&quot;&gt;&lt;font color=&quot;#000099&quot;&gt;Get https://studies.cs.helsinki.fi/exampleapp/spa&lt;/font&gt;&lt;/code&gt;&lt;/pre&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fillColor=none;strokeColor=default;labelBackgroundColor=none;" parent="1" source="aM9ryv3xv72pqoxQDRHE-2" target="aM9ryv3xv72pqoxQDRHE-6" edge="1">
+          <mxGeometry x="-0.009" y="-40" relative="1" as="geometry">
+            <mxPoint x="240" y="340" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="225" y="330" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aM9ryv3xv72pqoxQDRHE-9" value="Html document" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fontColor=#CC6600;" parent="1" source="aM9ryv3xv72pqoxQDRHE-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="370" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="235" y="370" />
+            </Array>
+            <mxPoint x="130" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jW9Gv8o0be3yyok_srHc-1" value="&lt;pre style=&quot;box-sizing: inherit; font-family: &amp;quot;IBM Plex Mono&amp;quot;, monospace; font-size: 0.85rem; margin-top: 2rem; margin-bottom: 2rem; line-height: 150%; border-radius: 0.5rem; overflow-wrap: normal; padding: 1rem; overflow: auto; position: relative; text-align: start;&quot;&gt;&lt;code style=&quot;box-sizing: inherit; font-family: Consolas, Monaco, &amp;quot;Andale Mono&amp;quot;, &amp;quot;Ubuntu Mono&amp;quot;, monospace; font-size: 1em; line-height: 1.5; background-image: none; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; border-radius: 3px; padding: 0.2em 0px; text-shadow: none; word-spacing: normal; word-break: normal; overflow-wrap: normal; tab-size: 4; hyphens: none;&quot; class=&quot;language-text&quot;&gt;&lt;font color=&quot;#000099&quot;&gt;Get https://studies.cs.helsinki.fi/exampleapp/spa.css&lt;/font&gt;&lt;/code&gt;&lt;/pre&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fillColor=none;strokeColor=default;labelBackgroundColor=none;" edge="1" parent="1">
+          <mxGeometry x="-0.0092" y="-40" relative="1" as="geometry">
+            <mxPoint x="130" y="420" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="220" y="420" />
+            </Array>
+            <mxPoint x="675" y="420" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jW9Gv8o0be3yyok_srHc-2" value="css file" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fontColor=#CC6600;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="470" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="235" y="470" />
+            </Array>
+            <mxPoint x="130" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jW9Gv8o0be3yyok_srHc-5" value="&lt;pre style=&quot;box-sizing: inherit; font-family: &amp;quot;IBM Plex Mono&amp;quot;, monospace; font-size: 0.85rem; margin-top: 2rem; margin-bottom: 2rem; line-height: 1.42; border-radius: 0.5rem; overflow-wrap: normal; padding: 1rem; overflow: auto; position: relative; text-align: start;&quot;&gt;&lt;code style=&quot;box-sizing: inherit; font-family: Consolas, Monaco, &amp;quot;Andale Mono&amp;quot;, &amp;quot;Ubuntu Mono&amp;quot;, monospace; font-size: 1em; line-height: 1.5; background-image: none; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; border-radius: 3px; padding: 0.2em 0px; text-shadow: none; word-spacing: normal; word-break: normal; overflow-wrap: normal; tab-size: 4; hyphens: none;&quot; class=&quot;language-text&quot;&gt;Get https://studies.cs.helsinki.fi/exampleapp/spa.js&lt;/code&gt;&lt;/pre&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fillColor=none;strokeColor=default;labelBackgroundColor=none;fontColor=#000099;" edge="1" parent="1">
+          <mxGeometry x="-0.0092" y="-40" relative="1" as="geometry">
+            <mxPoint x="130" y="520" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="220" y="520" />
+            </Array>
+            <mxPoint x="675" y="520" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jW9Gv8o0be3yyok_srHc-6" value="js file" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fontColor=#CC6600;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="675" y="560" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="230" y="560" />
+            </Array>
+            <mxPoint x="125" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jW9Gv8o0be3yyok_srHc-7" value="&lt;pre style=&quot;box-sizing: inherit; font-family: &amp;quot;IBM Plex Mono&amp;quot;, monospace; font-size: 0.85rem; margin-top: 2rem; margin-bottom: 2rem; line-height: 1.42; border-radius: 0.5rem; overflow-wrap: normal; padding: 1rem; overflow: auto; position: relative; text-align: start;&quot;&gt;&lt;code style=&quot;box-sizing: inherit; font-family: Consolas, Monaco, &amp;quot;Andale Mono&amp;quot;, &amp;quot;Ubuntu Mono&amp;quot;, monospace; font-size: 1em; line-height: 1.5; background-image: none; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; border-radius: 3px; padding: 0.2em 0px; text-shadow: none; word-spacing: normal; word-break: normal; overflow-wrap: normal; tab-size: 4; hyphens: none;&quot; class=&quot;language-text&quot;&gt;Get https://studies.cs.helsinki.fi/exampleapp/data.json&lt;/code&gt;&lt;/pre&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fillColor=none;strokeColor=default;labelBackgroundColor=none;fontColor=#000099;" edge="1" parent="1">
+          <mxGeometry x="-0.0095" y="-40" relative="1" as="geometry">
+            <mxPoint x="130" y="620" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="230" y="620" />
+            </Array>
+            <mxPoint x="680" y="620" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jW9Gv8o0be3yyok_srHc-8" value="json data" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fontColor=#CC6600;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="660" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="240" y="660" />
+            </Array>
+            <mxPoint x="130" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jW9Gv8o0be3yyok_srHc-9" value="&lt;pre style=&quot;box-sizing: inherit; font-family: &amp;quot;IBM Plex Mono&amp;quot;, monospace; font-size: 0.85rem; margin-top: 2rem; margin-bottom: 2rem; line-height: 1.42; border-radius: 0.5rem; overflow-wrap: normal; padding: 1rem; overflow: auto; position: relative; text-align: start;&quot;&gt;&lt;code style=&quot;box-sizing: inherit; font-family: Consolas, Monaco, &amp;quot;Andale Mono&amp;quot;, &amp;quot;Ubuntu Mono&amp;quot;, monospace; font-size: 1em; line-height: 1.5; background-image: none; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; border-radius: 3px; padding: 0.2em 0px; text-shadow: none; word-spacing: normal; word-break: normal; overflow-wrap: normal; tab-size: 4; hyphens: none;&quot; class=&quot;language-text&quot;&gt;Post https://studies.cs.helsinki.fi/exampleapp/new_note_spa&lt;/code&gt;&lt;/pre&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fillColor=none;strokeColor=default;labelBackgroundColor=none;fontColor=#000099;" edge="1" parent="1">
+          <mxGeometry x="-0.0073" y="-40" relative="1" as="geometry">
+            <mxPoint x="130" y="730" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="230" y="730" />
+            </Array>
+            <mxPoint x="680" y="730" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jW9Gv8o0be3yyok_srHc-10" value="json data" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fontColor=#CC6600;" edge="1" parent="1">
+          <mxGeometry x="0.0009" relative="1" as="geometry">
+            <mxPoint x="685" y="770" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="240" y="770" />
+            </Array>
+            <mxPoint x="130" y="770" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
