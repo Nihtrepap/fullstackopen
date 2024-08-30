@@ -1,44 +1,55 @@
-const Header = (props) =>  {
-  return (
-    <h1>{props.course}</h1>
-  );
-}
+import { useState } from 'react'
 
-const Content = (props) =>  {
+const History = (props) => {
+  if (props.allClicks.length === 0) {
+    return (
+      <div>
+        the app is used by pressing the buttons
+      </div>
+    )
+  }
   return (
     <div>
-      {props.content.map((content, index) => (
-        <p key={index}>{content.type} {content.exercises}</p>
-      ))}
+      button press history: {props.allClicks.join(' ')}
     </div>
-  );
+  )
 }
 
-const Total = (props) =>  {
-  let total = 0;
-  props.content.forEach(content => {
-    total += content.exercises;
-  })
-
-  return (
-      <p>Number of exercises {total}</p>
-  );
-}
+const Button = ({ handleClick, text }) => (
+  <button onClick={handleClick}>
+    {text}
+  </button>
+)
 
 const App = () => {
-  const course = 'Half Stack application development'
-  const content = [
-    { type:'Fundamentals of React', exercises:10 },
-    { type:'Using props to pass data', exercises:7 },
-    { type:'State of a component', exercises:14 }
-  ];
+  const [left, setLeft] = useState(0)
+  const [right, setRight] = useState(0)
+  const [allClicks, setAll] = useState([])
+
+  const [total, setTotal] = useState(0)
+
+  const handleLeftClick = () => {
+    setAll(allClicks.concat('L'))
+    const updatedLeft = left + 1
+    setLeft(updatedLeft)
+    setTotal(updatedLeft + right) 
+  }
+
+  const handleRightClick = () => {
+    setAll(allClicks.concat('R'));
+    const updatedRight = right + 1;
+    setRight(updatedRight);
+    setTotal(left + updatedRight);
+  };
 
   return (
     <div>
-      <Header course={course} />
-      <Content content={content}/>
-      <Total content={content}/>
-      </div>
+      {left}
+      <Button handleClick={handleLeftClick} text='left' />
+      <Button handleClick={handleRightClick} text='right' />
+      {right}
+      <History allClicks={allClicks} />
+    </div>
   )
 }
 
